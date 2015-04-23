@@ -1,0 +1,2 @@
+module WorkPageHelper
+end
