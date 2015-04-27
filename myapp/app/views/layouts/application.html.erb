@@ -4,7 +4,7 @@
   <title>Myapp</title>  
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -53,9 +53,9 @@
 					<ul>
 						<strong style="color:white;margin-right:20px;">&copy By tracey & bonolo</strong>
 				
-						<a href="disclaimer.html">disclaimer</a>
+						<%= link_to 'disclaimer', disclaimer_page_disclaimer_path %>
 					
-						<a href="sitemap.html">sitemap</a>
+						<%= link_to 'sitemap', sitemap_page_sitemap_path %>
 					
 						<a href="button.html" style="float:right;">button</a>
 					</ul>
