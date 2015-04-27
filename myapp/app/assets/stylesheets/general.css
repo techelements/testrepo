@@ -24,10 +24,25 @@ background:#eee;
 height:80px;	
 }
 
+.navbar-header
+{
+padding-left:200px;	
+}
+
 .nopadding 
 {
 padding: 0 !important;
 margin: 0 !important;
+}
+
+.underline
+{
+border-bottom: 1px solid #000;    
+}
+
+h1
+{
+color:#787878 !important;	
 }
 
 .quote
@@ -36,6 +51,13 @@ height:200px;
 text-align:center;
 font-style:italic;
 color: #383838; 
+}
+
+.boxstyle
+{
+height:200px;
+border:1px solid #000000;
+padding:20px; 
 }
 
 blockquote
@@ -78,4 +100,5 @@ height:50px;
 background-color: #000;
 display: block;
 float:left;
+margin-top:15px;
 }
