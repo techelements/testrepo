@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
+#<<<<<<< HEAD
   #get 'cv/cv'
   #get 'cv' => "cv#cv"
   
   #get 'index/index'
    #get 'index' => "index#index"
-=======
+#=======
  
   
  
@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   get 'cv_page/cv'
   get 'interview_page/interview'
   get 'work_page/work'
->>>>>>> a3110ce39358e34cfabb511ca149c6c54dab9483
+#a3110ce39358e34cfabb511ca149c6c54dab9483
 
 #'/feedback' => 'static_pages#feedback'
   root 'index#index'
