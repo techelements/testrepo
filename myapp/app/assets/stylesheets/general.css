@@ -4,7 +4,9 @@ body
 background-repeat:no-repeat;
 /* setting it on 0px will leave us with no padding around the design, rendering the page at the absolute top. */
 margin:0px;
-padding:0px;  
+padding:0px; 
+font-family: 'Lato', san-serif;
+-webkit-font-smoothing: antialiased; 
 }
 
 
@@ -29,6 +31,22 @@ height:80px;
 padding-left:200px;	
 }
 
+.center-align
+{
+text-align:center;
+float:right;
+list-style:none; 
+padding:28px;
+width:600px;
+margin:0 auto;
+}
+
+li
+{
+display:inline; 
+padding:30px;
+}
+
 .nopadding 
 {
 padding: 0 !important;
@@ -43,6 +61,23 @@ border-bottom: 1px solid #000;
 h1
 {
 color:#787878 !important;	
+}
+
+li a
+{
+text-decoration:none;
+color:#404040; 
+text-transform:uppercase;
+
+}
+
+li a:hover
+{
+background-color:#686868; 
+text-decoration:none;
+color:#D0D0D0;
+border:10px solid #686868;
+border-radius:10px;  	
 }
 
 .quote
