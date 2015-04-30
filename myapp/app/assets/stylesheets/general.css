@@ -101,10 +101,8 @@ font-size:30px;
 }
 
 .aligncenter 
-{
-margin-right:auto;
-margin-left:auto;
-text-align:center;   
+{	
+text-align:center;  
 }
 
 .home-content
